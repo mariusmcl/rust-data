@@ -1,0 +1,16 @@
+[package]
+name = "rustdata"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.11"
+scraper = "0.12"
+parquet = "2.0"
+avro-rs = "0.11"
+rusqlite = "0.26"
+tokio = { version = "1.34.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
